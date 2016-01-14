@@ -30,6 +30,17 @@
     double op1 = self.operandOne.text.doubleValue;
     double op2 = self.operandTwo.text.doubleValue;
 
+    self.operation.text = sender.titleLabel.text;
+    NSString *operationText = self.operation.text;
+    if ([operationText isEqualToString:@"+"]) {
+        
+    } else if ([operationText isEqualToString:@"-"]) {
+        
+    } else if ([operationText isEqualToString:@"x"]) {
+        
+    } else {
+        
+    }
 }
 
 @end
